@@ -1,0 +1,32 @@
+<article>	Represents an independent piece of content.
+<aside>	Contains content related to the main content, often used for sidebars.
+<audio>	Embeds audio content in a webpage.
+<canvas>	Used for drawing graphics via scripting (JavaScript).
+<details>	Creates a disclosure widget from which the user can obtain additional information.
+<datalist>	Provides a set of predefined options for an <input> element.
+<embed>	Embeds external content such as multimedia.
+<figure>	Represents self-contained content, like images or diagrams, with an optional caption.
+<footer>	Defines the footer for a document or section.
+<form>	Represents a form for user input.
+<header>	Defines the header for a document or section.
+<hgroup>	Groups heading elements (<h1> to <h6>) together.
+<main>	Specifies the main content of a document.
+<mark>	Highlights text for reference purposes.
+<meter>	Represents a scalar measurement within a known range (like a gauge).
+<nav>	Defines navigation links within the document.
+<output>	Represents the result of a calculation or user action.
+<progress>	Displays the progress of a task.
+<section>	Defines a section in a document, such as chapters or thematic groups.
+<summary>	Provides a summary for the content in the <details> element.
+<time>	Represents a specific period in time (date/time).
+<video>	Embeds video content in a webpage.
+Form Elements:
+<input>, <select>, <textarea>, etc., are used to create interactive forms.
+Media Elements:
+Tags like <audio>, <video>, and <track> are used to integrate multimedia.
+Text and Semantic Elements:
+Tags like <strong>, <em>, and various heading tags (<h1>, ... ,<h6>) provide semantic meaning to text.
+Some tags from previous versions of HTML have been deprecated in HTML5, such as:
+<font>
+<center>
+<marquee>
