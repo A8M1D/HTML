@@ -17,6 +17,9 @@
             <li>
                 <a href="#html">Learn HTML</a>
             </li>
+            <li>
+                <a href="#Contact">Contact Us </a>
+            </li>
         </ul>
     </nav>
     <hr>
@@ -37,6 +40,29 @@
     </ul>
     <p>Place I want to visit</p>
     <img src="img/caribbean.jpeg" alt="">
+    <hr>
+    <article id="contact">
+        <h2>Contact Us</h2>
+        <p>I'd really like to hear from you!</p>
+        <form action="https://httpbin.org/get" method="get">
+        <p>
+            <label for="firstName">First name: </label>
+            <input type="text" name="firstName" id="firstName" placeholder="Dea" required autofocus>
+        </p>
+        <p>
+            <label for="lastName">Last name: </label>
+            <input type="text" name="lastName" id="lastName" placeholder="Doe" required>
+        </p>
+        <p>
+            <label for="password"> Password: </label>
+            <input type="password" name="password" id="password" placeholder="your secret" required>
+        </p>
+        <p>
+            <label for="phone"> Phone: </label>
+            <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"required>
+        </p>
+        </form>
+    </article>
     <p>To go access the about page click <a href="about.html">here</a></p>
     </section>
     <p>
